@@ -16,8 +16,8 @@ from pypdf import PdfReader
 # ---------------------------------------------------------------
 # Settings (yahan se aasani se badal sakte ho)
 # ---------------------------------------------------------------
-MODEL = "gemini-2.5-flash"            # Model badalna ho to sirf yahan
-FALLBACK_MODELS = ["gemini-2.0-flash"]  # Upar wala na mile to ye try hoga
+MODEL =  "gemini-flash-latest"          # Model badalna ho to sirf yahan
+FALLBACK_MODELS = ["gemini-3.6-flash", "gemini-3.5-flash"]  # Upar wala na mile to ye try hoga
 MAX_CHARS = 400_000                   # Notes ki max length prompt mein
 HISTORY_MESSAGES = 6                  # Pichle kitne messages yaad rakhne hain
 
